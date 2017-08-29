@@ -1,5 +1,5 @@
 web:
-  image: registry.cn-beijing.aliyuncs.com/qinyujia-test/php-demo
+  image: registry.cn-hangzhou.aliyuncs.com/codepipeline/php-demo
   restart: always
   labels:
     aliyun.probe.url: 'tcp://container:8000'
